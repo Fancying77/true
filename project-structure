@@ -1,0 +1,17 @@
+project/
+├── index.html
+├── css/
+│   ├── style.css
+│   └── responsive.css
+├── js/
+│   ├── carousel.js
+│   ├── chat.js
+│   └── main.js
+└── images/
+    ├── logo.png
+    └── social/
+        ├── wechat.png
+        ├── weibo.png
+        ├── douyin.png
+        ├── instagram.png
+        └── facebook.png 

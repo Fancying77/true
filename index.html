@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="网站Logo">
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <!-- 轮播图部分 -->
+        <div class="carousel-container">
+            <div class="carousel">
+                <button class="carousel-btn prev">❮</button>
+                <button class="carousel-btn next">❯</button>
+                <div class="carousel-slides">
+                    <div class="slide active">
+                        <img src="images/slide1.jpg" alt="幻灯片1">
+                    </div>
+                    <!-- 更多幻灯片 -->
+                </div>
+                <div class="carousel-indicators"></div>
+            </div>
+        </div>
+
+        <!-- 社交媒体链接 -->
+        <div class="social-links">
+            <div class="social-item">
+                <i class="fab fa-weixin"></i>
+                <span>微信公众号</span>
+                <div class="qr-code">
+                    <img src="images/qr-code.png" alt="微信二维码">
+                </div>
+            </div>
+            <div class="social-item">
+                <i class="fab fa-weibo"></i>
+                <span>微博</span>
+            </div>
+            <div class="social-item">
+                <i class="fab fa-tiktok"></i>
+                <span>抖音</span>
+            </div>
+            <div class="social-item">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </div>
+            <div class="social-item">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- AI助手聊天窗口 -->
+    <div class="chat-widget" id="chatWidget">
+        <button class="chat-toggle">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>AI助手</h3>
+                <div class="chat-controls">
+                    <button class="minimize"><i class="fas fa-minus"></i></button>
+                    <button class="close"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="chat-messages"></div>
+            <div class="chat-input">
+                <textarea placeholder="请输入您的问题..."></textarea>
+                <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+            <div class="chat-tools">
+                <button class="voice-input"><i class="fas fa-microphone"></i></button>
+                <button class="clear-chat"><i class="fas fa-trash"></i></button>
+                <button class="export-chat"><i class="fas fa-download"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                © 2024 我的网站. 保留所有权利
+            </div>
+            <div class="contact">
+                联系电话：123-456-7890<br>
+                邮箱：contact@example.com
+            </div>
+            <div class="beian">
+                备案号：xxx-xxx号
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html> 
